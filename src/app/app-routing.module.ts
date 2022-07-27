@@ -4,6 +4,7 @@ import { MainComponent } from './mainapp/main/main.component';
 import { T1Component } from './mainapp/t1/t1.component';
 import { T2Component } from './mainapp/t2/t2.component';
 import { T3Component } from './mainapp/t3/t3.component';
+import { T4Component } from './mainapp/t4/t4.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 't3',
     component: T3Component
+  },
+  {
+    path: 't4',
+    component: T4Component
   }
 ];
 

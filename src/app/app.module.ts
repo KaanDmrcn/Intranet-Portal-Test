@@ -26,6 +26,11 @@ import { T3headerComponent } from './test/testpage3/components/t3header/t3header
 import { T2headerComponent } from './test/testpage2/components/t2header/t2header.component';
 import { T2menuComponent } from './test/testpage2/components/t2menu/t2menu.component';
 import { T2middleareaComponent } from './test/testpage2/components/t2middlearea/t2middlearea.component';
+import { T4Component } from './mainapp/t4/t4.component';
+import { T4middleareaComponent } from './test/testpage4/components/t4middlearea/t4middlearea.component';
+import { T4menuComponent } from './test/testpage4/components/t4menu/t4menu.component';
+import { T4footerComponent } from './test/testpage4/components/t4footer/t4footer.component';
+import { T4headerComponent } from './test/testpage4/components/t4header/t4header.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +56,11 @@ import { T2middleareaComponent } from './test/testpage2/components/t2middlearea/
     T2headerComponent,
     T2menuComponent,
     T2middleareaComponent,
+    T4Component,
+    T4middleareaComponent,
+    T4menuComponent,
+    T4footerComponent,
+    T4headerComponent,
   ],
   imports: [
     BrowserModule,
