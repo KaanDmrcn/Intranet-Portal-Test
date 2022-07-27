@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DirectoryComponent } from './components/directory/directory.component';
-import { MiddleareaComponent } from './components/middlearea/middlearea.component';
+import { T1Component } from './mainapp/t1/t1.component';
+import { MainComponent } from './mainapp/main/main.component';
 
 const routes: Routes = [
   {
-    path: 'directory',
-    component: DirectoryComponent
+    path: '',
+    component: MainComponent
   },
   {
-    path: '',
-    component: MiddleareaComponent
+    path: 't1',
+    component: T1Component
   }
 ];
 

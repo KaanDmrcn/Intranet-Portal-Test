@@ -1,0 +1,73 @@
+.menu_card{
+    margin: 8%;
+}
+
+.menu_login_button{
+    background-color:rgb(127, 213, 219) 
+}
+
+.menu_label{
+    text-align: center;
+}
+
+.menu_margin{
+    margin-top: 5%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .centered {
+    position: absolute;
+    left: 53%;
+    transform: translate(-50%, -50%)
+    rotateZ(-4.5deg);
+  }
+
+.kutu_div {
+    transform:
+      perspective(75em)
+      rotateX(2deg);
+    box-shadow:
+      #7ea4b3 0px 60px 123px -25px,
+      #255b7d 0px 35px 75px -35px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color:
+      rgb(213, 220, 226)
+      rgb(213, 220, 226)
+      rgb(184, 194, 204);
+}
+
+.menu_background{
+    background-color: #5ca0f2;
+    background-image: linear-gradient(215deg, #255b7d 1%, #f5f7f6 100%);
+      margin-left: 10px;
+      margin-right: 10px;
+}
+
+.menu_font{
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+
+}
+  
+.menu_img{
+  background-image: url(https://www.onlygfx.com/wp-content/uploads/2020/07/blank-post-it-note-1.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menu_list{
+  padding-left: 25%;
+  padding-top: 30%;
+  transform: rotateZ(-4.5deg);
+  font-size: 0.7vw;
+  font-family:cursive;
+  }

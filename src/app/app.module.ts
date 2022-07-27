@@ -10,6 +10,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DirectoryComponent } from './components/directory/directory.component';
 
 import { DevExtremeModule } from 'devextreme-angular';
+import { T1headerComponent } from './test/testpage1/components/t1header/t1header.component';
+import { T1menuComponent } from './test/testpage1/components/t1menu/t1menu.component';
+import { T1middleareaComponent } from './test/testpage1/components/t1middlearea/t1middlearea.component';
+import { T1footerComponent } from './test/testpage1/components/t1footer/t1footer.component';
+import { MainComponent } from './mainapp/main/main.component';
+import { T1Component } from './mainapp/t1/t1.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { DevExtremeModule } from 'devextreme-angular';
     HeaderComponent,
     MenuComponent,
     FooterComponent,
-    DirectoryComponent
+    DirectoryComponent,
+    T1headerComponent,
+    T1menuComponent,
+    T1middleareaComponent,
+    T1footerComponent,
+    MainComponent,
+    T1Component,
   ],
   imports: [
     BrowserModule,
