@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Employee, EmployeesService } from 'src/app/services/employees.service';
+
 
 @Component({
   selector: 'app-directory',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectoryComponent implements OnInit {
 
-  constructor() { }
+  employees: Employee[] = [];
+ 
+    constructor(service: EmployeesService) {
+        this.employees = service.getEmployees();
+    }
 
   ngOnInit(): void {
   }
