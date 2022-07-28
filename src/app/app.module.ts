@@ -31,6 +31,8 @@ import { T4middleareaComponent } from './test/testpage4/components/t4middlearea/
 import { T4menuComponent } from './test/testpage4/components/t4menu/t4menu.component';
 import { T4footerComponent } from './test/testpage4/components/t4footer/t4footer.component';
 import { T4headerComponent } from './test/testpage4/components/t4header/t4header.component';
+import { PricesService } from './services/prices.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -65,9 +67,10 @@ import { T4headerComponent } from './test/testpage4/components/t4header/t4header
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DevExtremeModule
+    DevExtremeModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PricesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

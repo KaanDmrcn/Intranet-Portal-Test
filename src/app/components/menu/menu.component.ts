@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PricesService } from 'src/app/services/prices.service';
 
 @Component({
   selector: 'app-menu',
@@ -12,10 +13,24 @@ export class MenuComponent implements OnInit {
   menu3: string = 'Pilav';
   menu4: string = 'Ayran';
   menu5: string = 'Künefe';
+  usd: any;
+  eur: any;
+  btc: any;
 
-  constructor() { }
+  prices: any;
+
+  constructor(service: PricesService) {
+    this.prices = service.getPrices().subscribe(
+      (data)=>{
+this.usd = data.USD.satis,
+this.eur = data.EUR.satis,
+this.btc = data.BTC.satis;
+      }
+    );
+   }
 
   ngOnInit(): void {
   }
+  
 
 }

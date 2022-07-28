@@ -1,0 +1,8 @@
+{
+    "/embed/doviz.json": {
+      "target": "https://api.genelpara.com/",
+      "secure": true
+      
+      
+    }
+  }
