@@ -64,11 +64,11 @@
 }
 
 .baglantilar_color{
-    background-color: #5987a3;
+    background-color: #255b7d;
 }
 
 .rehber_background{
-  background-image: linear-gradient(215deg, white 1%, #f5f7f6 100%);
+  background-image: linear-gradient(215deg, #255b7d 1%, #f5f7f6 100%);
     margin-left: 10px;
     margin-right: 10px;
     
@@ -76,19 +76,19 @@
 
 
 .baglantilar_background{
-  background-image: linear-gradient(215deg, white 1%, #f5f7f6 100%);
+  background-image: linear-gradient(215deg, #255b7d 1%, #f5f7f6 100%);
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .formlar_background{
-  background-image: linear-gradient(215deg, white 1%, #f5f7f6 100%);
+  background-image: linear-gradient(215deg, #255b7d 1%, #f5f7f6 100%);
     margin-left: 10px;
     margin-right: 10px;
 }
 .kutu_div {
-  max-width: 30%;
-  max-height: 25%;
+
+  min-height: 400px;
   transform:
     perspective(75em)
     rotateX(2deg);
@@ -189,9 +189,9 @@ body {
 }
 
 button {
-    margin-bottom: 2%;
-    margin-left: 7%;
-    margin-top: 2%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 25%;
     height: 25%;
     padding-bottom: 3%;
@@ -205,19 +205,11 @@ button {
   text-decoration: none;
   font-size: 0.6vw;
   font-family: inherit;
-  
-  @media screen and (max-width: 1600px) {
-    .button {
-      margin-bottom: 2%;
-    margin-left: 7%;
-    margin-top: 2%;
-    height: 35%;
-    }
-  }
 
-  
+   
   &.learn-more {
-    max-width: 90px;
+    width: 80px;
+    height: 80px;
     font-weight: 600;
     color: $text;
     text-transform: uppercase;
@@ -259,6 +251,7 @@ button {
     }
   }
 }
+
 
 
 
