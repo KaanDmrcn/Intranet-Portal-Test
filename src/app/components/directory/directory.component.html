@@ -1,12 +1,11 @@
+<div class="kutu_div">
+<div>
 <dx-data-grid
     [dataSource]="employees">
 
     <dxo-paging [pageSize]="8"></dxo-paging>
-    <dxo-pager
-      [showPageSizeSelector]="true"
-      [allowedPageSizes]="[3, 5, 8]"
-    ></dxo-pager>
-    <dxi-column dataField="FullName" [width]="100"></dxi-column>
+
+    <dxi-column dataField="FullName"></dxi-column>
     <dxi-column dataField="Position"></dxi-column>
     <dxi-column dataField="Departman"></dxi-column>
     <dxi-column dataField="Mail"></dxi-column>
@@ -16,3 +15,5 @@
     <dxo-search-panel [visible]="true"></dxo-search-panel>
 
 </dx-data-grid>
+</div>
+</div>
