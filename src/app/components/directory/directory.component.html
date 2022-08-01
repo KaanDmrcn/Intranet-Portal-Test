@@ -1,7 +1,9 @@
-<div>
-<div>
+<div class="kutu_div" style="background-color: #c7d3db;">
+<div style="width:1200px; margin-top: 20px; margin-left: 50px;">
 <dx-data-grid
-    [dataSource]="employees">
+[focusedRowEnabled]="true"
+    [dataSource]="employees"
+    keyExpr="EmployeeID">
 
     <dxo-paging [pageSize]="8"></dxo-paging>
     
@@ -19,5 +21,4 @@
 
 </dx-data-grid>
 </div>
-<a href=”tel:+905367085564″>iletişim numaramız</a>
 </div>

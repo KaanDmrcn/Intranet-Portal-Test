@@ -7,18 +7,48 @@
 .kutu_div {
     transform:
       perspective(75em)
-      rotateX(2deg);
+      rotateX(0.1deg);
     box-shadow:
-      #a9bbc2 0px 60px 123px -25px,
-      #8bb2ca 0px 35px 75px -35px;
+    #255b7d 0px 60px 123px -25px,
+    #255b7d 0px 35px 75px -35px;
     border-radius: 10px;
     border: 1px solid;
     border-color:
       rgb(213, 220, 226)
       rgb(213, 220, 226)
       rgb(184, 194, 204);
-      width: 1200px;
-      height: 400px;
-      margin-left: 200px;
+      width: 1300px;
+      height: 480px;
+      margin-left: 100px;
       margin-top:20px;
 }
+
+::ng-deep .dx-header-row{
+  background-color: #255b7d;
+  color: white;
+}
+
+::ng-deep .dx-datagrid-nowrap{
+  background-color: #7db9d167;
+}
+
+::ng-deep .dx-gridbase-container{
+  background-color: #c7d3db;
+}
+
+::ng-deep .dx-toolbar-items-container{
+  background-color: #c7d3db;
+}
+
+::ng-deep .dx-pages{
+  background-color: white;
+}
+
+::ng-deep .dx-pager .dx-pages .dx-selection {
+  cursor: inherit;
+  text-shadow: none;
+  color: #333;
+  border-color: transparent;
+  background-color: #7db9d167;
+}
+
