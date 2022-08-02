@@ -1,0 +1,159 @@
+body {
+    background: #1b7e7e;
+  }
+  
+  svg#fish {
+    top: 76%;
+
+  }
+  /* Fish Animation */
+  svg.fish{
+    overflow:visible;
+  }
+  
+  @-webkit-keyframes swim
+  {
+      0% {margin-left: -235px}
+      90% {margin-left: 100%;}
+      100% {margin-left: 100%;}
+  }
+  
+  @keyframes swim
+  {
+      0% {margin-left: -235px}
+      70% {margin-left: 100%;}
+      100% {margin-left: 100%;}
+  }
+  
+  .fish{
+      width: 235px;
+      height: 104px;
+      margin-left: -235px;
+      position: absolute;	
+      animation: swim 20s;
+      -webkit-animation: swim 20s;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      -webkit-animation-timing-function: linear;
+  }
+  
+  svg #fish1,
+  svg #fish2,
+  svg #fish3,
+  svg #fish4,
+  svg #fish5,
+  svg #fish6 {
+  fill:#528484;
+    
+      -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  svg #fish2{
+      animation-delay: 0.5s;
+      -webkit-animation-delay: 0.5s;
+  }
+  
+  svg #fish3{
+      animation-delay: 0.2s;
+      -webkit-animation-delay: 0.2s;
+  }
+  
+  svg #fish4{
+      animation-delay: 0.4s;
+      -webkit-animation-delay: 0.4s;
+  }
+  
+  svg #fish5{
+      animation-delay: 0.1s;
+      -webkit-animation-delay: 0.1s;
+  }
+  
+  svg #fish6{
+      animation-delay: 0.3s;
+      -webkit-animation-delay: 0.3s;
+  }
+  
+  /**/
+  @-moz-keyframes bounce {
+    0%, 50%, 100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+    25% {
+      -moz-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      -moz-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    0%, 50%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    25% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+  @keyframes bounce {
+    0%, 50%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    25% {
+      -moz-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      -moz-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+  
+  /*END Fish Animation*/
+
+  /*    Ship
+
+         <g>
+          <path id="fish2" style="fill:#434A54;" d="M 69.3285 0.6575 c -2.9455 0 -5.328 -2.383 -5.328 -5.328 v -10.6715 c 0 -2.9455 2.383 -5.332 5.328 -5.332 s 5.3355 2.3865 5.3355 5.332 v 10.6715 C 74.664 -1.7255 72.2735 0.6575 69.3285 0.6575 z"/>
+          <path id="fish2" style="fill:#434A54;" d="M 37.3285 0.6575 c -2.9455 0 -5.328 -2.383 -5.328 -5.328 v -10.6715 c 0 -2.9455 2.383 -5.332 5.328 -5.332 s 5.336 2.3865 5.336 5.332 v 10.6715 C 42.6645 -1.7255 40.274 0.6575 37.3285 0.6575 z"/>
+        </g>
+        <path id="fish2" style="fill:#E6E9ED;" d="M 69.3285 64.6635 h -32 c -2.9455 0 -5.328 -2.3895 -5.328 -5.327 V -4.671 c 0 -2.945 2.383 -5.3355 5.328 -5.3355 h 31.9995 c 2.945 0 5.3355 2.3905 5.3355 5.3355 v 64.007 C 74.664 62.274 72.2735 64.6635 69.3285 64.6635 z"/>
+        <rect id="fish2" x="32" y="5.6595" style="fill:#5D9CEC;" width="42.67" height="16"/>
+        <rect id="fish2" x="96" y="17" style="fill:#CCD1D9;" width="10.328" height="42.36"/>
+        <rect id="fish2" x="75" y="34" style="fill:#48CFAD;" width="32" height="21"/>
+        <rect id="fish2" x="85" y="13" style="fill:#FFCE54;" width="32" height="21"/>
+        <rect id="fish2" x="101" y="-6" style="fill:#A0D468;" width="32" height="21"/>
+        <rect id="fish2" x="133" y="-6" style="fill:#FC6E51;" width="32" height="21"/>
+        <rect id="fish2" x="117" y="13" style="fill:#ED5564;" width="32" height="21"/>
+        <rect id="fish2" x="149" y="13" style="fill:#A0D468;" width="32" height="21"/>
+        <rect id="fish2" x="104" y="34" style="fill:#FC6E51;" width="32" height="21"/>
+        <rect id="fish2" x="135" y="34" style="fill:#FFCE54;" width="32" height="21"/>
+        <rect id="fish2" x="165" y="34" style="fill:#FC6E51;" width="32" height="21"/>
+        <path id="fish2" style="fill:#656D78;" d="M 255.5705 46.5865 c -0.828 -1.9725 -2.7655 -3.254 -4.914 -3.254 h -53.335 c -0.828 0 -1.64 0.1875 -2.3825 0.5625 l -20.203 10.0975 H 5.3295 c -1.961 0 -3.7735 1.094 -4.703 2.828 c -0.922 1.719 -0.8205 3.828 0.2655 5.469 l 21.3355 31.999 c 0.992 1.4845 2.656 2.375 4.4375 2.375 h 182.281 c 1.4375 0 2.8125 -0.578 3.8125 -1.6095 l 41.7105 -42.671 C 255.969 50.852 256.4065 48.5705 255.5705 46.5865 z"/>
+        <g>
+          <path id="fish2" style="fill:#434A54;" d="M 51.766 71.554 c 2.086 2.078 2.086 5.469 0 7.547 c -2.078 2.078 -5.453 2.078 -7.539 0 c -2.086 -2.078 -2.086 -5.469 0 -7.547 C 46.313 69.476 49.688 69.476 51.766 71.554 z"/>
+          <path id="fish2" style="fill:#434A54;" d="M 83.7655 71.554 c 2.086 2.078 2.086 5.469 0 7.547 c -2.078 2.078 -5.453 2.078 -7.539 0 s -2.086 -5.469 0 -7.547 S 81.6875 69.476 83.7655 71.554 z"/>
+          <path id="fish2" style="fill:#434A54;" d="M 115.765 71.554 c 2.086 2.078 2.086 5.469 0 7.547 c -2.078 2.078 -5.453 2.078 -7.539 0 c -2.0855 -2.078 -2.0855 -5.469 0 -7.547 C 110.3115 69.476 113.6865 69.476 115.765 71.554 z"/>
+          <path id="fish2" style="fill:#434A54;" d="M 147.76 71.554 c 2.086 2.078 2.086 5.469 0 7.547 c -2.078 2.078 -5.4525 2.078 -7.5385 0 s -2.086 -5.469 0 -7.547 S 145.682 69.476 147.76 71.554 z"/>
+          <path id="fish2" style="fill:#434A54;" d="M 179.7595 71.554 c 2.086 2.078 2.086 5.469 0 7.547 c -2.078 2.078 -5.453 2.078 -7.539 0 s -2.086 -5.469 0 -7.547 S 177.6815 69.476 179.7595 71.554 z"/>
+        </g>
+        
+
+  */

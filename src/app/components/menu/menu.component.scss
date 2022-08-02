@@ -86,9 +86,10 @@
 }
 
 .menu_font{
-    font-size: 11px;
+
     color: white;
-    text-align: center;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -99,9 +100,15 @@
 }
 
 }
-  
+
+.login_img{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .menu_img{
-  background-image: url(./menu_with_hat.png);
+  background-image: url(./chef_menu.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
@@ -188,8 +195,8 @@
 }
 
 .menu_list{
-  padding-left: 35%;
-  padding-top: 35%;
+  padding-left: 27%;
+  padding-top: 47%;
   transform: rotateZ(-4.5deg);
   font-size: 10px;
   font-family:cursive;
